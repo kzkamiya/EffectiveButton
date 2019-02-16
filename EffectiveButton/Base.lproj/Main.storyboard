@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EffectiveButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtL-JI-djj">
+                                <rect key="frame" x="259" y="70" width="250" height="50"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="8n4-kg-nsQ"/>
+                                    <constraint firstAttribute="height" constant="50" id="9en-ag-M9h"/>
+                                </constraints>
+                                <state key="normal" title="******デフォルトのUIButton******"/>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kn2-tB-S7a" customClass="EffectiveButton" customModule="EffectiveButton" customModuleProvider="target">
+                                <rect key="frame" x="259" y="220" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="GBP-C2-GcD"/>
+                                    <constraint firstAttribute="height" constant="50" id="RBt-cg-bZj"/>
+                                </constraints>
+                                <state key="normal" title="Effective Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundImageColor">
+                                        <color key="value" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-YH-66Y" customClass="EffectiveButton" customModule="EffectiveButton" customModuleProvider="target">
+                                <rect key="frame" x="259" y="290" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OhL-OP-yXf"/>
+                                    <constraint firstAttribute="width" constant="250" id="u2C-Tp-jjQ"/>
+                                </constraints>
+                                <state key="normal" title="Effective Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
+                                        <color key="value" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundImageColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmZ-o3-wGp">
+                                <rect key="frame" x="259" y="140" width="250" height="50"/>
+                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EyB-iw-r80"/>
+                                    <constraint firstAttribute="width" constant="250" id="NWm-QJ-7l0"/>
+                                </constraints>
+                                <state key="normal" title="背景色を追加したUIButton">
+                                    <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPC-tv-WP7" userLabel="Button2" customClass="EffectiveButton" customModule="EffectiveButton" customModuleProvider="target">
+                                <rect key="frame" x="259" y="360" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Yfa-Po-HA7"/>
+                                    <constraint firstAttribute="width" constant="250" id="jpO-TD-V3j"/>
+                                </constraints>
+                                <state key="normal" title="Effective Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
+                                        <color key="value" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundImageColor">
+                                        <color key="value" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qPC-tv-WP7" firstAttribute="height" secondItem="HtL-JI-djj" secondAttribute="height" id="07i-7v-fvO"/>
+                            <constraint firstItem="RmZ-o3-wGp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="0Y3-Fb-qCC"/>
+                            <constraint firstItem="qPC-tv-WP7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="81c-GO-3kL"/>
+                            <constraint firstItem="RmZ-o3-wGp" firstAttribute="width" secondItem="HtL-JI-djj" secondAttribute="width" id="CyA-MT-zlX"/>
+                            <constraint firstItem="kn2-tB-S7a" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Dn1-OY-S1i"/>
+                            <constraint firstItem="HtL-JI-djj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="L7N-Fu-MYQ"/>
+                            <constraint firstItem="9vV-YH-66Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="270" id="LJu-7w-15c"/>
+                            <constraint firstItem="RmZ-o3-wGp" firstAttribute="height" secondItem="HtL-JI-djj" secondAttribute="height" id="Nlh-K7-egI"/>
+                            <constraint firstItem="HtL-JI-djj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WJO-S8-yf2"/>
+                            <constraint firstItem="9vV-YH-66Y" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZjO-2T-xi1"/>
+                            <constraint firstItem="kn2-tB-S7a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="dZF-Do-Hty"/>
+                            <constraint firstItem="9vV-YH-66Y" firstAttribute="height" secondItem="HtL-JI-djj" secondAttribute="height" id="dt7-2h-OQy"/>
+                            <constraint firstItem="qPC-tv-WP7" firstAttribute="width" secondItem="HtL-JI-djj" secondAttribute="width" id="g5G-b7-ooj"/>
+                            <constraint firstItem="9vV-YH-66Y" firstAttribute="width" secondItem="HtL-JI-djj" secondAttribute="width" id="g67-Od-285"/>
+                            <constraint firstItem="kn2-tB-S7a" firstAttribute="height" secondItem="HtL-JI-djj" secondAttribute="height" id="gGV-sw-qDv"/>
+                            <constraint firstItem="kn2-tB-S7a" firstAttribute="width" secondItem="HtL-JI-djj" secondAttribute="width" id="gwY-w5-y6Z"/>
+                            <constraint firstItem="qPC-tv-WP7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="r7k-5s-cGE"/>
+                            <constraint firstItem="RmZ-o3-wGp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vSE-SK-1Ie"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

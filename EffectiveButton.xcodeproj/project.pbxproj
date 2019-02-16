@@ -12,16 +12,20 @@
 		8CCACD412218836C003B9ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCACD3F2218836C003B9ABD /* Main.storyboard */; };
 		8CCACD432218836D003B9ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCACD422218836D003B9ABD /* Assets.xcassets */; };
 		8CCACD462218836D003B9ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCACD442218836D003B9ABD /* LaunchScreen.storyboard */; };
+		8CCACD50221885F1003B9ABD /* EffectiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCACD4F221885F1003B9ABD /* EffectiveButton.swift */; };
+		8CCACD522218964E003B9ABD /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CCACD512218964E003B9ABD /* click.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8CCACD382218836C003B9ABD /* RoundButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCACD382218836C003B9ABD /* EffectiveButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCACD3B2218836C003B9ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CCACD3D2218836C003B9ABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CCACD402218836C003B9ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CCACD422218836D003B9ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CCACD452218836D003B9ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CCACD472218836D003B9ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CCACD4F221885F1003B9ABD /* EffectiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveButton.swift; sourceTree = "<group>"; };
+		8CCACD512218964E003B9ABD /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		8CCACD2F2218836C003B9ABD = {
 			isa = PBXGroup;
 			children = (
-				8CCACD3A2218836C003B9ABD /* RoundButton */,
+				8CCACD3A2218836C003B9ABD /* EffectiveButton */,
 				8CCACD392218836C003B9ABD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,14 +50,15 @@
 		8CCACD392218836C003B9ABD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CCACD382218836C003B9ABD /* RoundButton.app */,
+				8CCACD382218836C003B9ABD /* EffectiveButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8CCACD3A2218836C003B9ABD /* RoundButton */ = {
+		8CCACD3A2218836C003B9ABD /* EffectiveButton */ = {
 			isa = PBXGroup;
 			children = (
+				8CCACD4D2218837E003B9ABD /* UI Parts */,
 				8CCACD3B2218836C003B9ABD /* AppDelegate.swift */,
 				8CCACD3D2218836C003B9ABD /* ViewController.swift */,
 				8CCACD3F2218836C003B9ABD /* Main.storyboard */,
@@ -61,15 +66,24 @@
 				8CCACD442218836D003B9ABD /* LaunchScreen.storyboard */,
 				8CCACD472218836D003B9ABD /* Info.plist */,
 			);
-			path = RoundButton;
+			path = EffectiveButton;
+			sourceTree = "<group>";
+		};
+		8CCACD4D2218837E003B9ABD /* UI Parts */ = {
+			isa = PBXGroup;
+			children = (
+				8CCACD512218964E003B9ABD /* click.mp3 */,
+				8CCACD4F221885F1003B9ABD /* EffectiveButton.swift */,
+			);
+			path = "UI Parts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CCACD372218836C003B9ABD /* RoundButton */ = {
+		8CCACD372218836C003B9ABD /* EffectiveButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CCACD4A2218836D003B9ABD /* Build configuration list for PBXNativeTarget "RoundButton" */;
+			buildConfigurationList = 8CCACD4A2218836D003B9ABD /* Build configuration list for PBXNativeTarget "EffectiveButton" */;
 			buildPhases = (
 				8CCACD342218836C003B9ABD /* Sources */,
 				8CCACD352218836C003B9ABD /* Frameworks */,
@@ -79,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = RoundButton;
+			name = EffectiveButton;
 			productName = RoundButton;
-			productReference = 8CCACD382218836C003B9ABD /* RoundButton.app */;
+			productReference = 8CCACD382218836C003B9ABD /* EffectiveButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -90,6 +104,9 @@
 		8CCACD302218836C003B9ABD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Button1,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Neosystem;
@@ -99,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CCACD332218836C003B9ABD /* Build configuration list for PBXProject "RoundButton" */;
+			buildConfigurationList = 8CCACD332218836C003B9ABD /* Build configuration list for PBXProject "EffectiveButton" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CCACD372218836C003B9ABD /* RoundButton */,
+				8CCACD372218836C003B9ABD /* EffectiveButton */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CCACD462218836D003B9ABD /* LaunchScreen.storyboard in Resources */,
+				8CCACD522218964E003B9ABD /* click.mp3 in Resources */,
 				8CCACD432218836D003B9ABD /* Assets.xcassets in Resources */,
 				8CCACD412218836C003B9ABD /* Main.storyboard in Resources */,
 			);
@@ -135,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCACD50221885F1003B9ABD /* EffectiveButton.swift in Sources */,
 				8CCACD3E2218836C003B9ABD /* ViewController.swift in Sources */,
 				8CCACD3C2218836C003B9ABD /* AppDelegate.swift in Sources */,
 			);
@@ -284,12 +303,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3VW9ZMYGC7;
-				INFOPLIST_FILE = RoundButton/Info.plist;
+				INFOPLIST_FILE = EffectiveButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.neosystem.RoundButton;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.neosystem.EffectiveButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +321,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3VW9ZMYGC7;
-				INFOPLIST_FILE = RoundButton/Info.plist;
+				INFOPLIST_FILE = EffectiveButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.neosystem.RoundButton;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.neosystem.EffectiveButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CCACD332218836C003B9ABD /* Build configuration list for PBXProject "RoundButton" */ = {
+		8CCACD332218836C003B9ABD /* Build configuration list for PBXProject "EffectiveButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CCACD482218836D003B9ABD /* Debug */,
@@ -326,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CCACD4A2218836D003B9ABD /* Build configuration list for PBXNativeTarget "RoundButton" */ = {
+		8CCACD4A2218836D003B9ABD /* Build configuration list for PBXNativeTarget "EffectiveButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CCACD4B2218836D003B9ABD /* Debug */,
